@@ -8,6 +8,39 @@ See `docs/` for more concepts.
 
 Actual stable code is in `src/`. Not much to see yet.
 
+## Recent Additions
+
+### Bi-Laplacian Hamiltonian (Quantum Field on the Adeles)
+
+A numerical implementation of the bi-Laplacian Hamiltonian combining analytic (Archimedean) and p-adic valuation parts. This is a computational realization of quantum field theory on the adeles, following the Tetragraphic framework.
+
+**Key features:**
+- Ground state verification (λ₀≈0, constant, shift-invariant)
+- Energy decomposition into analytic and valuation channels
+- Valuation invariance checks
+- Scaling experiments and multi-prime support
+- Comprehensive test suite (19 tests, all passing)
+
+**Quick start:**
+```bash
+# Run basic experiment
+python3 src/quantum/bi_laplacian.py
+
+# Run demo with all features
+python3 examples/bi_laplacian_demo.py
+
+# Run extended experiments
+python3 -m src.quantum.bi_laplacian_experiments
+
+# Run tests
+python3 -m pytest tests/test_bi_laplacian.py -v
+```
+
+**Documentation:**
+- `docs/bi_laplacian_analysis.md` - Full mathematical framework and results
+- `examples/bi_laplacian_demo.py` - Interactive demonstration
+- `src/quantum/bi_laplacian.py` - Core implementation
+
 # Science / ML
 
 For the nerds: I think there's some potentially great ideas in here. If you
