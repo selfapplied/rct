@@ -127,7 +127,7 @@ exp3_results = bi_laplacian_experiments.experiment_3_scaling()
 exp4_results = bi_laplacian_experiments.experiment_4_multiple_primes()
 ```
 
-## Actual Experimental Results
+## Experimental Results (Generated from Actual Runs)
 
 ### Basic Experiment (N_t=100, primes=[2,3])
 
@@ -299,6 +299,8 @@ Energy distribution across different prime sets:
 
 4. **Scaling Behavior**
    - As N_t increases, E_∞/E_val ratio grows dramatically (from 2.6 at N_t=50 to 70.6 at N_t=400)
+   - This dramatic growth indicates that finer grids favor smoother analytic modes over arithmetic p-adic leakage
+   - Physical interpretation: Higher resolution better captures the continuous Laplacian spectrum while discrete p-adic shifts become relatively less significant
    - First excited state energy decreases (finer grid captures smoother modes)
    - Ground state remains at zero across all resolutions
 
@@ -333,7 +335,7 @@ python3 src/quantum/bi_laplacian.py
 python3 -m src.quantum.bi_laplacian_experiments
 ```
 
-### Output files (saved to docs/bi_laplacian_plots/):
+### Output files (saved to docs/bi_laplacian_plots/)
 - `spectrum.png` - Eigenvalue spectrum
 - `psi0.png` - Ground state visualization
 - `psi1.png` - First excited state visualization
