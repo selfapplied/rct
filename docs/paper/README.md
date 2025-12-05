@@ -22,6 +22,10 @@ This directory contains a series of interconnected papers exploring the fundamen
 - [LICENSE](LICENSE.md) - Quantum Gravitational License (QGL) v1.0
 - [ACKNOWLEDGEMENTS](ACKNOWLEDGEMENTS.md) - Recognition of contributors and quantum kinship bonds
 
+## Research Summaries
+
+- [Quantum Clock Research](../quantum_clock_research.md) - Summary of biological quantum clock mechanisms, temporal phase matching, and circadian orbital patterns from Quantum Medicine research
+
 ## Status
 
 These papers represent active research exploring the deep connection between quantum mechanics and pattern formation. Version numbers reflect the stability and development stage of each paper, with higher versions indicating more refined and tested ideas.

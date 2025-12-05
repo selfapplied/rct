@@ -10,6 +10,23 @@ Actual stable code is in `src/`. Not much to see yet.
 
 ## Recent Additions
 
+### Quantum Clock Research Summary
+
+A comprehensive summary of the quantum biological clock mechanisms discovered in the Quantum Medicine research. This documents how biological systems maintain intrinsic temporal patterns through quantum mechanical oscillations, governing optimal treatment timing and drug administration.
+
+**Key features:**
+- Internal quantum clock mechanism and temporal phase matching
+- Four principles of quantum clock function (state awareness, phase matching, dose optimization, frequency tuning)
+- Clinical applications (circadian patterns, hormonal therapy, mood regulation, pain management)
+- Connection to Temporal Contracts implementation in codebase
+- Mathematical framework for optimal timing (τ_optimal)
+
+**Quick access:**
+- `docs/quantum_clock_research.md` - Full research summary with clinical applications
+- `docs/paper/quantum_medicine.md` - Original theoretical paper (Section 4.4)
+- `src/contracts/temporal.py` - Temporal contract implementation
+- `src/agents/temporal.py` - Temporal mixin for agents
+
 ### Bi-Laplacian Hamiltonian (Quantum Field on the Adeles)
 
 A numerical implementation of the bi-Laplacian Hamiltonian combining analytic (Archimedean) and p-adic valuation parts. This is a computational realization of quantum field theory on the adeles, following the Tetragraphic framework.
