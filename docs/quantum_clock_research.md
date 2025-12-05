@@ -20,13 +20,13 @@ The quantum clock mechanism is formalized through:
 
 ### 1. Temporal Evolution Operator
 
-```
+```text
 F(t) = temporal evolution operator incorporating quantum gravitational dynamics
 ```
 
 The patient's response state evolves as:
 
-```
+```text
 |response⟩ = F(t)|drug⟩⟨drug|patient⟩
 ```
 
@@ -34,7 +34,7 @@ The patient's response state evolves as:
 
 The optimal intervention timing is determined by maximizing state overlap:
 
-```
+```text
 τ_optimal = argmax_t ⟨healthy|response(t)⟩
 ```
 
@@ -44,7 +44,7 @@ This represents finding the precise moment when the patient's quantum state is m
 
 The dynamical decoupling mechanism through biological rhythms:
 
-```
+```text
 H_rhythm(t) = H_0 + Σ_k A_k cos(ω_k t)
 ```
 
@@ -55,22 +55,22 @@ Biological rhythms create time-dependent Hamiltonians that average out environme
 ### 1. Quantum State Awareness
 The body maintains coherent quantum states that provide real-time feedback about orbital stability and phase matching. This manifests as intuitive knowledge of when interventions are needed and in what quantity.
 
-**References**: [Fröhlich 1968, Del Giudice 1986]
+*References: Fröhlich 1968, Del Giudice 1986*
 
 ### 2. Temporal Phase Matching
 Individual biological rhythms determine optimal timing for drug administration. The internal quantum clock naturally aligns drug intake with periods of maximum orbital receptivity.
 
-**References**: [Winfree 1980, Glass 1988]
+*References: Winfree 1980, Glass 1988*
 
 ### 3. Dose Optimization
 The magnitude of orbital perturbation required for therapeutic effect varies dynamically. Individual quantum feedback allows real-time adjustment of dosage to maintain optimal phase relationships.
 
-**References**: [Hameroff 1994]
+*References: Hameroff 1994*
 
 ### 4. Frequency Tuning
 The intervals between doses emerge from the natural frequency of orbital pattern restoration. This explains why forced regular dosing schedules often prove suboptimal compared to intuitive timing.
 
-**References**: [Smith 1994]
+*References: Smith 1994*
 
 ## Clinical Applications
 
@@ -129,19 +129,31 @@ The theoretical quantum clock research has a direct implementation in the RCT co
 4. **Decoherence**: Accounts for temporal decay of quantum coherence
 
 ### Code Structure:
+
+The implementation includes temporal evolution with decoherence:
+
 ```python
+# From src/contracts/temporal.py
 class TemporalContract(QuantumContract, TemporalMixin):
     """Contract that maintains temporal memory of quantum states."""
     
-    def evolve(self, dt: float):
-        """Evolve the contract's quantum state with decoherence"""
-        age = time.time() - self.creation_time
-        if age < self.lifetime:
-            decoherence = np.exp(-age / self.lifetime)
-            # Apply temporal evolution with phase preservation
+    def evolve(self, dt: float) -> None:
+        """Evolve the contract's quantum state"""
+        if self.psi is not None and self.wave_fn is not None:
+            # Apply wave function evolution
+            self.wave_fn.amplitude = self.psi(self.wave_fn.amplitude)
+            # Apply decoherence based on age
+            age = time.time() - self.creation_time
+            if age < self.lifetime:
+                decoherence = np.exp(-age / self.lifetime)
+                self.wave_fn.amplitude *= decoherence
+                # Normalize to maintain quantum state validity
+                norm = np.linalg.norm(self.wave_fn.amplitude)
+                if norm > 0:
+                    self.wave_fn.amplitude /= norm
 ```
 
-This implementation captures the essence of biological quantum clocks at the level of agent interactions and contracts.
+This implementation captures the essence of biological quantum clocks at the level of agent interactions and contracts. See `src/contracts/temporal.py` for the complete implementation.
 
 ## Implications for Treatment
 
