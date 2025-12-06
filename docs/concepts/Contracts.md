@@ -10,7 +10,9 @@ In Recursive Contract Theory, a **contract** is an agreement between an agent an
 2. Acts to maintain or improve coherence
 3. Updates itself based on the results
 
-Contracts are fixed point combinators that operate on a manifold space for an energy E. The total energy remains fixed between iterations, or convolutions, or aims to by capturing energy differences between states. No model is perfect, and it's okay to drop information because it will find its way back to you from the void.
+## Technical Definition
+
+From a mathematical perspective, contracts are fixed point combinators that operate on a manifold space for an energy E. The total energy remains fixed between iterations, or convolutions, or aims to by capturing energy differences between states. No model is perfect, and it's okay to drop information because it will find its way back to you from the void.
 
 ## Mathematical Foundation
 

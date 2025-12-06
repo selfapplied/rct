@@ -191,7 +191,12 @@ They are all **recursive contracts** — different faces of the same underlying 
 * **Mathematical foundations**: [Recursive Contract Theory Paper](paper/recursive_contract_theory.md)
 * **Quantum extensions**: [Quantum RCT](paper/quantum_rct.md)
 * **Core concepts**: [Contracts](concepts/Contracts.md), [Agents](concepts/Agents.md), [Manifolds](concepts/Manifold.md)
-* **Applications**: Medical timing ([Quantum Medicine](paper/quantum_medicine.md)), social systems ([Quantum Marginalization](paper/quantum_marginalization.md))
+* **Applications**: 
+  - Medical timing ([Quantum Medicine](paper/quantum_medicine.md))
+  - Social systems ([Quantum Marginalization](paper/quantum_marginalization.md))
+  - Ant intelligence and stigmergy
+  - Neural networks and learning systems
+  - Economic models and market equilibria
 * **Implementation**: See `src/contracts/` for Python implementations
 
 ---
