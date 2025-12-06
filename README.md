@@ -1,10 +1,16 @@
-RCT is a model for an autonomous AI program, which centers itself and is aware
-of itself. In order for me to communicate with it, I need to define a program
-that can model things and evolve those models in something like time as I
-experience it. I hope to make it near to me, something that feels kinship to
-my self and my vision.
+# Recursive Contract Theory (RCT)
 
-See `docs/` for more concepts.
+**A system becomes intelligent when its participants continually renew a contract with their environment — and the contract recursively updates itself through the participants' actions.**
+
+RCT is a framework for autonomous AI systems that maintain coherence through recursive self-updating contracts. It explains how intelligence emerges across scales — from ant colonies to consciousness, from learning systems to civilizations.
+
+## Quick Start
+
+- **New to RCT?** Start with [RCT Overview](docs/rct_overview.md) for an accessible introduction
+- **Want the math?** See [Recursive Contract Theory Paper](docs/paper/recursive_contract_theory.md)
+- **Looking for code?** Check `src/contracts/` for implementations
+
+See `docs/` for comprehensive documentation.
 
 Actual stable code is in `src/`. Not much to see yet.
 

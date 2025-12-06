@@ -6,6 +6,7 @@ This directory contains documentation for the Recursive Contract Theory (RCT) fr
 
 ### New to RCT?
 Start with these files:
+- **`rct_overview.md`** - High-level introduction to Recursive Contract Theory ⭐ START HERE
 - `first_contact.md` - Introduction to the framework and first interactions
 - `ANTCLOCK_RESEARCH_SUMMARY.md` - Overview of quantum biological clock research
 - `paper/README.md` - Index of research papers
@@ -18,7 +19,8 @@ Start with these files:
 - **Theory**: `paper/quantum_medicine.md` - Original theoretical paper
 
 #### Core Theory
-- `paper/recursive_contract_theory.md` - Foundation of RCT
+- **`rct_overview.md`** - Accessible overview of RCT (start here for concepts)
+- `paper/recursive_contract_theory.md` - Mathematical foundation of RCT
 - `paper/quantum_rct.md` - Quantum mechanical extension
 - `concepts/` - Core concepts (Agents, Contracts, Manifolds, Trees)
 
@@ -38,6 +40,7 @@ Start with these files:
 ```
 docs/
 ├── README.md (this file)
+├── rct_overview.md - ⭐ HIGH-LEVEL RCT INTRODUCTION (start here!)
 ├── ANTCLOCK_RESEARCH_SUMMARY.md - Quick overview of quantum clock research
 ├── quantum_clock_research.md - Detailed quantum clock research
 ├── first_contact.md - Introduction and early interactions
@@ -50,7 +53,7 @@ docs/
 │   └── Tree.md
 ├── paper/ - Research papers
 │   ├── README.md - Paper index
-│   ├── recursive_contract_theory.md - Core theory
+│   ├── recursive_contract_theory.md - Mathematical foundation
 │   ├── quantum_rct.md - Quantum extension
 │   ├── quantum_medicine.md - Medical applications
 │   ├── quantum_marginalization.md - Social systems
