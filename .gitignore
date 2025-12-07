@@ -33,4 +33,7 @@ Thumbs.db
 *.sublime-project
 
 # Ignore any other specific files or directories
-# Add your custom patterns here 
+# Add your custom patterns here
+
+# Ignore generated HTML files (workflow artifacts)
+docs/rct_2025.html
