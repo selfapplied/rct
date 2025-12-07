@@ -1,5 +1,8 @@
 # 🌀 Recursive Contract Theory (RCT)
 
+> **Note**: For the complete modern framework with all integrations, see **[RCT 2025 Edition](rct_2025.md)**.  
+> This document provides a shorter, accessible introduction.
+
 **A system becomes intelligent when its participants continually renew a contract with their environment — and the contract recursively updates itself through the participants' actions.**
 
 ## What is RCT?

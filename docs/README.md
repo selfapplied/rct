@@ -6,7 +6,8 @@ This directory contains documentation for the Recursive Contract Theory (RCT) fr
 
 ### New to RCT?
 Start with these files:
-- **`rct_overview.md`** - High-level introduction to Recursive Contract Theory ⭐ START HERE
+- **`rct_2025.md`** - ⭐ **RCT 2025 EDITION** - Complete modern unified framework (START HERE)
+- **`rct_overview.md`** - High-level introduction to Recursive Contract Theory
 - `first_contact.md` - Introduction to the framework and first interactions
 - `ANTCLOCK_RESEARCH_SUMMARY.md` - Overview of quantum biological clock research
 - `paper/README.md` - Index of research papers
@@ -19,7 +20,8 @@ Start with these files:
 - **Theory**: `paper/quantum_medicine.md` - Original theoretical paper
 
 #### Core Theory
-- **`rct_overview.md`** - Accessible overview of RCT (start here for concepts)
+- **`rct_2025.md`** - RCT 2025 Edition: Complete modern framework with CE Tower, antclock, Volte, and all applications
+- **`rct_overview.md`** - Accessible overview of RCT (shorter introduction)
 - `paper/recursive_contract_theory.md` - Mathematical foundation of RCT
 - `paper/quantum_rct.md` - Quantum mechanical extension
 - `concepts/` - Core concepts (Agents, Contracts, Manifolds, Trees)
@@ -40,7 +42,8 @@ Start with these files:
 ```
 docs/
 ├── README.md (this file)
-├── rct_overview.md - ⭐ HIGH-LEVEL RCT INTRODUCTION (start here!)
+├── rct_2025.md - ⭐ RCT 2025 EDITION (complete modern framework - start here!)
+├── rct_overview.md - High-level RCT introduction
 ├── ANTCLOCK_RESEARCH_SUMMARY.md - Quick overview of quantum clock research
 ├── quantum_clock_research.md - Detailed quantum clock research
 ├── first_contact.md - Introduction and early interactions
