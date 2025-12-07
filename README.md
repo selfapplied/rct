@@ -6,13 +6,29 @@ RCT is a framework for autonomous AI systems that maintain coherence through rec
 
 ## Quick Start
 
-- **New to RCT?** Start with [RCT Overview](docs/rct_overview.md) for an accessible introduction
+- **New to RCT?** Start with [RCT 2025 Edition](docs/rct_2025.md) for the complete modern framework
+- **Want a quick intro?** See [RCT Overview](docs/rct_overview.md) for an accessible introduction
 - **Want the math?** See [Recursive Contract Theory Paper](docs/paper/recursive_contract_theory.md)
 - **Looking for code?** Check `src/contracts/` for implementations
 
 See `docs/` for comprehensive documentation.
 
 Actual stable code is in `src/`. Not much to see yet.
+
+## 🆕 RCT 2025 — Modern Unified Framework
+
+The **[RCT 2025 Edition](docs/rct_2025.md)** represents a major evolution of Recursive Contract Theory, integrating:
+
+- **CE Tower** (CE1/CE2/CE3) — The three-layer computational emergence framework
+- **Antclock** — Temporal quantum contracts governing biological timing
+- **Volte Dynamics** — Potential field coordination mechanisms
+- **Euwild Integration** — Free will as self-chosen coherence within recursive contracts
+- **Stigmergy & Antbot** — Environment-mediated intelligence and autonomous navigation
+- **Unified Applications** — From quantum medicine to economic models, UI/UX to evolutionary reasoning
+
+The 2025 edition follows a clean, scalable structure with 9 sections covering everything from core axioms to biological evidence to formal mathematics. This is the authoritative reference for modern RCT.
+
+**→ [Read RCT 2025 Edition](docs/rct_2025.md)**
 
 ## Recent Additions
 
